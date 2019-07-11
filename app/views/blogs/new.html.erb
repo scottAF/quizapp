@@ -1,0 +1,12 @@
+<div class="mainpage">
+  <h1>New Blog</h1>
+
+  <%= simple_form_for @blog, url: blogs_path do |f| %>
+    <%= f.input :title %>
+    <%= f.input :message %>
+    <%= f.submit "Post", class: 'btn btn-success' %>
+  <% end %>
+</div>
+
+
+

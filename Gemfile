@@ -68,3 +68,4 @@ source 'https://rails-assets.org' do
 end
 
 gem "simple_calendar", "~> 2.0"
+gem 'simple_form'

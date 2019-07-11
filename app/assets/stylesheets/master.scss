@@ -1,6 +1,108 @@
 @import "bootstrap";
 
 h1 {
-    color: red;
     text-align: center;
+    font-size: 45px;
+    font-family: verdana, arial, helvetica, sans-serif;
 }
+body {
+    color: black;
+    margin: 33px;
+    padding: 10px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    background: image_url('writing.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: color-dodge;
+    height: 370px;
+    box-shadow: 0px 3px 8px #2a2a2a;
+  }
+
+  .mainpage {
+    background-color: none;
+  }
+  
+  p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  
+  pre {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 11px;
+  }
+  
+  a {
+    color: #000;
+  
+    
+    &:hover {
+      color: #fff;
+      background-color: #000;
+    }
+  }
+  
+  th {
+    padding-bottom: 10px;
+    color: brown;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  
+  td {
+    padding: 10px 10px 15px;
+  }
+  
+  div {
+    &.field, &.actions {
+      margin-bottom: 10px;
+    }
+  }
+ .backpage {
+   background-color: default;
+ }
+  
+  #notice {
+    color: green;
+  }
+  
+  .field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table;
+  }
+  
+  #error_explanation {
+    width: 450px;
+    border: 2px solid red;
+    padding: 7px 7px 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+  
+    h2 {
+      text-align: left;
+      font-weight: bold;
+      padding: 5px 5px 5px 15px;
+      font-size: 12px;
+      margin: -7px -7px 0;
+      background-color: #c00;
+      color: #fff;
+    }
+  
+    ul li {
+      font-size: 12px;
+      list-style: square;
+    }
+  }
+  
+  label {
+    display: block;
+  }
+  
